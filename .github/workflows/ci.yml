@@ -1,0 +1,7 @@
+name: CI Check
+on: [push]
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "CI is working - ready for future setup"
