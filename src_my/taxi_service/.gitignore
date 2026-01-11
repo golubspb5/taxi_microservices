@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+
+# Environment
+.env
+.venv
+venv/
+env/
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Docker
+*.log
+*.pid
+docker-compose.override.yml
+
+# Database
+*.sqlite3
+*.db
+*.db-journal
+
+# Pytest
+.cache/
+htmlcov/
+.pytest_cache/
